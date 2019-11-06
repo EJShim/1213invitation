@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import background from './resource/img/forestbridge.jpg';
+import background from './resource/img/background.jpg';
 import kistlogoIcon from './resource/img/kistlogo.ico';
 import './App.css';
 
@@ -20,7 +20,7 @@ class App extends Component {
 
 
     return (
-      <div className="bgimg w3-display-container w3-animate-opacity w3-text-white" style={{backgroundImage:'url('+ background + ')'}}>
+      <div className="bgimg w3-display-container w3-animate-opacity w3-text-white" style={{backgroundImage:'linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('+ background + ')'}}>
         <div className="w3-display-topleft w3-padding-large w3-xlarge">
           <img className="logo" src={kistlogoIcon} alt="logo"></img>
         </div>
