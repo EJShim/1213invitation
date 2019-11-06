@@ -1,0 +1,15 @@
+.bgimg {  
+    min-height: 100%;
+    background-position: center;
+    background-size: cover;
+    user-select:none;
+      
+  }
+  
+  .logo{
+    width:3em;
+    height:3em;
+    margin-left: auto;
+    margin-right: 1em;
+    user-select: none;
+  }

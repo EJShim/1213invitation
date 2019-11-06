@@ -1,40 +1,29 @@
 import React, {Component} from 'react';
-import background from './resource/img/background.jpg';
-import kistlogoIcon from './resource/img/kistlogo.ico';
+import Main from './container/Main';
 import './App.css';
+
 
 class App extends Component {
 
 
   componentDidMount(){
+    
   }
 
 
   render(){
-    //calculate d-day
-    const now = new Date();
-    const then = new Date("december 13, 2019");
-    const gap = now.getTime() - then.getTime();
-    const day = Math.abs( Math.floor(gap / (1000 * 60 * 60 * 24)));
-    
-
 
     return (
-      <div className="bgimg w3-display-container w3-animate-opacity w3-text-white" style={{backgroundImage:'linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('+ background + ')'}}>
-        <div className="w3-display-topleft w3-padding-large w3-xlarge">
-          <img className="logo" src={kistlogoIcon} alt="logo"></img>
+      <div className="container">
+        <div className="content">
+          <Main/>
         </div>
-
-        <div className="w3-display-middle">
-          <h1 className="w3-jumbo w3-animate-top"> COMING SOON</h1>
-          <hr className="w3-border-grey" style={{margin:"auto",width:40+'%'}}></hr>
-          <p className="w3-large w3-center">{day} days left 12.13</p>
-        </div>
-
-        <div className="w3-display-bottomleft w3-padding-large">
-          Powered by <a href="https://ejshim.github.io">EJShim</a>
-        </div>
+        <div className="content">         
+    
+        <iframe title="location" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3695.1957656052987!2d127.05614041254037!3d37.58824303692843!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357cbb6c7c8d3245%3A0x6d91e4dd74c9688d!2z7IaM7Jq47Iiy!5e0!3m2!1sko!2sgm!4v1573040435588!5m2!1sko!2sgm" width="100%" height="100%" frameBorder="0" style={{border:0}} allowFullScreen=""></iframe>
+        </div>        
       </div>
+      
     );
   }
 }
