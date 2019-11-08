@@ -10,8 +10,57 @@
   overflow:auto;
 }
 
-.content{
+
+section{
   flex: 1 0 100vh;
   display:flex;    
   flex-direction: column;  
+}
+
+.starwars{
+  background-color: black;
+  overflow: hidden;
+  
+  perspective:400px;
+
+
+  justify-content: center;
+  color: #feda4a;
+  font-family: 'Pathway Gothic One', sans-serif;
+  font-size: 500%;
+  font-weight: 600;
+  letter-spacing: 6px;
+  line-height: 150%;
+  text-align: justify;
+}
+
+.crawl{    
+    position: relative;    
+    transform-origin: 50% 10%;
+
+    animation: crawl 60s linear;
+    animation-iteration-count:infinite;
+}
+
+/* We're calling this animation "crawl" */
+@keyframes crawl {
+  0% {
+    /* The element starts below the screen */
+    top: 1300px;
+    /* Rotate the text 20 degrees but keep it close to the viewer */
+    transform:  rotateX(20deg) translateZ(0);
+  }
+  100% {     
+    top: -3000px;    
+    transform: rotateX(25deg) translateZ(-2500px);
+  }
+}
+
+.fade {
+  position: absolute;
+  width: 100%;
+  min-height: 60vh;  
+  top : 0;
+  background-image: linear-gradient(0deg, transparent, black 75%);
+  z-index: 100;
 }
