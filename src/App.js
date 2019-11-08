@@ -61,12 +61,11 @@ class App extends Component {
         </section>
         <section className="slideshow">
           <div className="w3-content w3-section" style={{maxWidth:"100%"}}>
-          <p>The w3-animate-fading class animates an element in and out (takes about 10 seconds).</p>
-          <img className="mySlides w3-animate-fading" src={slide1} />
-          <img className="mySlides w3-animate-fading" src={slide2} />
-          <img className="mySlides w3-animate-fading" src={slide3} />
-          <img className="mySlides w3-animate-fading" src={slide4} />
-          
+            <p>The w3-animate-fading class animates an element in and out (takes about 10 seconds).</p>
+            <img className="mySlides w3-animate-fading" src={slide1} />
+            <img className="mySlides w3-animate-fading" src={slide2} />
+            <img className="mySlides w3-animate-fading" src={slide3} />
+            <img className="mySlides w3-animate-fading" src={slide4} />      
           </div>
         </section>
       </div>
