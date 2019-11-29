@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/1213invitation/static/css/main.2f9aa9f0.chunk.css",
-    "main.js": "/1213invitation/static/js/main.5e98c2b0.chunk.js",
-    "main.js.map": "/1213invitation/static/js/main.5e98c2b0.chunk.js.map",
+    "main.css": "/1213invitation/static/css/main.d340a6ee.chunk.css",
+    "main.js": "/1213invitation/static/js/main.7b41dea6.chunk.js",
+    "main.js.map": "/1213invitation/static/js/main.7b41dea6.chunk.js.map",
     "runtime-main.js": "/1213invitation/static/js/runtime-main.109d73d8.js",
     "runtime-main.js.map": "/1213invitation/static/js/runtime-main.109d73d8.js.map",
-    "static/js/2.4d8753cb.chunk.js": "/1213invitation/static/js/2.4d8753cb.chunk.js",
-    "static/js/2.4d8753cb.chunk.js.map": "/1213invitation/static/js/2.4d8753cb.chunk.js.map",
+    "static/js/2.833ba034.chunk.js": "/1213invitation/static/js/2.833ba034.chunk.js",
+    "static/js/2.833ba034.chunk.js.map": "/1213invitation/static/js/2.833ba034.chunk.js.map",
     "index.html": "/1213invitation/index.html",
-    "precache-manifest.9fceb5219cef0270cc3ca8b136b69b5a.js": "/1213invitation/precache-manifest.9fceb5219cef0270cc3ca8b136b69b5a.js",
+    "precache-manifest.3bb43a1168a3ca5f5209a0dbfbcac36f.js": "/1213invitation/precache-manifest.3bb43a1168a3ca5f5209a0dbfbcac36f.js",
     "service-worker.js": "/1213invitation/service-worker.js",
-    "static/css/main.2f9aa9f0.chunk.css.map": "/1213invitation/static/css/main.2f9aa9f0.chunk.css.map",
+    "static/css/main.d340a6ee.chunk.css.map": "/1213invitation/static/css/main.d340a6ee.chunk.css.map",
     "static/media/1.jpg": "/1213invitation/static/media/1.b083fc64.jpg",
     "static/media/2.png": "/1213invitation/static/media/2.91d04f60.png",
     "static/media/3.jpg": "/1213invitation/static/media/3.661efbde.jpg",
     "static/media/4.png": "/1213invitation/static/media/4.203b810f.png",
-    "static/media/background.jpg": "/1213invitation/static/media/background.9ccbbdbd.jpg",
-    "static/media/kistlogo.ico": "/1213invitation/static/media/kistlogo.d861e2bc.ico"
+    "static/media/kistlogo.ico": "/1213invitation/static/media/kistlogo.d861e2bc.ico",
+    "static/media/kivengerse.jpg": "/1213invitation/static/media/kivengerse.af439b55.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.109d73d8.js",
-    "static/js/2.4d8753cb.chunk.js",
-    "static/css/main.2f9aa9f0.chunk.css",
-    "static/js/main.5e98c2b0.chunk.js"
+    "static/js/2.833ba034.chunk.js",
+    "static/css/main.d340a6ee.chunk.css",
+    "static/js/main.7b41dea6.chunk.js"
   ]
 }

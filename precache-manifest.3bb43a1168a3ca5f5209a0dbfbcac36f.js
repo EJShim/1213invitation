@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "26a73d352207d5207882098e3283fb58",
+    "revision": "c7615ef5a118511c7496347b2b078e61",
     "url": "/1213invitation/index.html"
   },
   {
-    "revision": "9173b1576889fdc8ffcc",
-    "url": "/1213invitation/static/css/main.2f9aa9f0.chunk.css"
+    "revision": "e735bc07618106f0a252",
+    "url": "/1213invitation/static/css/main.d340a6ee.chunk.css"
   },
   {
-    "revision": "6f1e40b735ba6cb30c8e",
-    "url": "/1213invitation/static/js/2.4d8753cb.chunk.js"
+    "revision": "ff878fdc12c720c9ed31",
+    "url": "/1213invitation/static/js/2.833ba034.chunk.js"
   },
   {
-    "revision": "9173b1576889fdc8ffcc",
-    "url": "/1213invitation/static/js/main.5e98c2b0.chunk.js"
+    "revision": "e735bc07618106f0a252",
+    "url": "/1213invitation/static/js/main.7b41dea6.chunk.js"
   },
   {
     "revision": "8ef1233626fc665da699",
@@ -36,11 +36,11 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/1213invitation/static/media/4.203b810f.png"
   },
   {
-    "revision": "9ccbbdbdddf6ee86639733a6b90a8b97",
-    "url": "/1213invitation/static/media/background.9ccbbdbd.jpg"
-  },
-  {
     "revision": "d861e2bc668bec1931440c284cac5271",
     "url": "/1213invitation/static/media/kistlogo.d861e2bc.ico"
+  },
+  {
+    "revision": "af439b554def1c02386a90fbfdb5eafe",
+    "url": "/1213invitation/static/media/kivengerse.af439b55.jpg"
   }
 ]);
