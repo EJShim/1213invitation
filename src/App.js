@@ -28,7 +28,8 @@ class App extends Component {
         <div className="w3-display-middle">
           <h1 className="w3-jumbo w3-animate-top"> COMING SOON</h1>
           <hr className="w3-border-grey" style={{margin:"auto",width:40+'%'}}></hr>
-          <p className="w3-large w3-center">{day} days left 12.13</p>
+          <p className="w3-small w3-center">2019.12.13</p>
+          <p className="w3-large w3-center">{day} days left</p>
         </div>
 
         <div className="w3-display-bottomleft w3-padding-large">
