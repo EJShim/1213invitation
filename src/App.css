@@ -7,7 +7,7 @@
   align-items: stretch;
   flex-direction:column;
   height:100vh;
-  overflow:auto;
+  overflow-y:auto;
 }
 
 
