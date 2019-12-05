@@ -52,8 +52,10 @@ class App extends Component {
             <h1 className="shadow">초대장</h1>          
             <p className="shadow"> 일시 : 17:00, 1th Dec, 2019</p>
             <p className="shadow"> 장소 : 회기역 소울숲</p>
+            <h1 className="shadow"> 테마 : Movie Star - 베스트 드레서 시상</h1>
+            <p className="shadow"> 게임 및 경품 추첨, 소정의 상품 지급</p>
             <p className="shadow"> 참가비 : 35,000 원</p>
-            <p className="shadow"> 우리은행 1002-048-그다음기억안나요 (박승빈)</p>
+            <p className="shadow"> 우리은행 1002-048-671946 (박승빈)</p>
           </div>
           <div className="map-content">
             <iframe title="location" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3695.1957656052987!2d127.05614041254037!3d37.58824303692843!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357cbb6c7c8d3245%3A0x6d91e4dd74c9688d!2z7IaM7Jq47Iiy!5e0!3m2!1sko!2sgm!4v1573040435588!5m2!1sko!2sgm" width="100%" height="100%" frameBorder="0" style={{border:0}} allowFullScreen=""/>
