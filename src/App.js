@@ -1,5 +1,4 @@
 import React, {Component} from 'react';
-import Main from './container/Main';
 import slide2 from './resource/img/slideshow/2.png';
 import slide5 from './resource/img/slideshow/5.jpg';
 import slide6 from './resource/img/slideshow/6.jpg';
@@ -15,7 +14,11 @@ import slide15 from './resource/img/slideshow/15.jpg';
 import slide16 from './resource/img/slideshow/16.jpg';
 import slide17 from './resource/img/slideshow/17.jpg';
 import slide18 from './resource/img/slideshow/18.jpg';
+
+import background from './resource/img/kivengerse.jpg';
+import kistlogoIcon from './resource/img/kistlogo.ico';
 import './App.scss';
+
 
 
 class App extends Component {
@@ -156,17 +159,25 @@ class App extends Component {
     const slideElement = slides.map((image, idx)=>{
       return ( <img key={idx} className="mySlides w3-animate-fading" src={image} />)
     });
+
+    const backgroundStyle = {
+      backgroundImage : 'url('+ background + ')'            
+    };
+
+
     return (
       <div ref="container" className="container">
-        <section className="main">
-          <Main/>
+        <section className="bgimg" style={backgroundStyle}>
+          <div className="w3-display-topleft w3-padding-large w3-xlarge">
+              <img className="logo" src={kistlogoIcon} alt="logo"></img>
+          </div>
         </section>               
 
         <section className="map-container">          
           <div className="map-text">
-            <p className="shadow"> ◇ 일시 : 17:00, 1th Dec, 2019</p>
+            <p className="shadow"> ◇ 일시 : 17:00, 13th Dec, 2019</p>
             <p className="shadow"> ◇ 장소 : 회기역 소울숲</p>
-            <h1 className="shadow"> 테마 : Movie Star </h1>
+            <h1 className="shadow"> 드레스코드 : Movie Star </h1>
             <h1 className="shadow"> 베스트 드레서 시상 </h1>
             <p className="shadow"> ◇ 게임 및 경품 추첨, 소정의 상품 지급</p>
             <p className="shadow"> ◇ 각자 마실 거 가져오기</p>

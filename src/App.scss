@@ -17,6 +17,26 @@
     flex : 1 0 100vh;
   }
 
+  .bgimg {  
+    height: 143.375vw;
+    flex : 1 0 143.375vw;
+    background-position: center;
+    background-size: cover;
+    user-select:none;
+
+    margin-top : 5px;
+    margin-left : 5px;
+    width : calc(100vw - 10px);    
+  }
+  
+  .logo{
+    width:3em;
+    height:3em;
+    margin-left: auto;
+    margin-right: 1em;
+    user-select: none;
+  }
+
   .carousel{
     flex:1 0 100vh;
     justify-content: center;
@@ -30,24 +50,6 @@
     max-width:100%;
     max-height:100%;
   }
-
-
-  .crawl{    
-      position: relative;    
-      transform-origin: 50% 70%;
-      align-items: center;
-      justify-content: center;
-
-      animation: crawl 60s linear;
-      animation-iteration-count:infinite;
-
-      img{
-        width:100vw;
-      }
-
-  }
-
-
 
 
   .map-container{
@@ -65,7 +67,7 @@
     background: darkred;
 
     .shadow{
-      color: ivory;
+
       font-family: 'Black Han Sans', serif;                  
      
       transition: all 0.12s ease-out;
@@ -78,7 +80,8 @@
     }
 
     h1{
-      font-size:10vw;
+      color: yellow;
+      font-size:8vw;
 
       text-shadow: 1px 1px black, 
       2px 2px black, 
@@ -95,6 +98,7 @@
     }
 
     p{
+      color: ivory;
       font-size:5vw;
 
       text-shadow: 1px 1px #165B33, 
@@ -113,7 +117,7 @@
 
     @media (orientation:landscape){
       h1{
-        font-size:5vw;
+        font-size:4vw;
       }
 
       p{
