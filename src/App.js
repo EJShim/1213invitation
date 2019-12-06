@@ -164,13 +164,13 @@ class App extends Component {
 
         <section className="map-container">          
           <div className="map-text">
-            <h1 className="shadow">초대장</h1>          
-            <p className="shadow"> 일시 : 17:00, 1th Dec, 2019</p>
-            <p className="shadow"> 장소 : 회기역 소울숲</p>
-            <h1 className="shadow"> 테마 : Movie Star - 베스트 드레서 시상</h1>
-            <p className="shadow"> 게임 및 경품 추첨, 소정의 상품 지급</p>
-            <p className="shadow"> 각자 마실 거 가져오기</p>
-            <p className="shadow"> 참가비 : 35,000 원</p>
+            <p className="shadow"> ◇ 일시 : 17:00, 1th Dec, 2019</p>
+            <p className="shadow"> ◇ 장소 : 회기역 소울숲</p>
+            <h1 className="shadow"> 테마 : Movie Star </h1>
+            <h1 className="shadow"> 베스트 드레서 시상 </h1>
+            <p className="shadow"> ◇ 게임 및 경품 추첨, 소정의 상품 지급</p>
+            <p className="shadow"> ◇ 각자 마실 거 가져오기</p>
+            <p className="shadow"> ◇ 참가비 : 35,000 원</p>
             <p className="shadow"> 우리은행 1002-048-671946 (박승빈)</p>
           </div>
           <div className="map-content">
@@ -179,7 +179,7 @@ class App extends Component {
         </section>
 
         <section className="carousel">
-          <div className="w3-content w3-section" style={{maxWidth:"100%"}}>
+          <div className="w3-content w3-section" style={{maxWidth:"90%"}}>
             {slideElement}
           </div>
         </section>
