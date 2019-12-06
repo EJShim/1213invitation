@@ -19,6 +19,10 @@
   .carousel{
     flex:1 0 100vh;
     justify-content: center;
+    background:black;
+
+    margin-left : 5px;
+    width: calc(100% - 10px);
   }
 
   .mySlides{
