@@ -7,35 +7,25 @@
 
   flex:80%;
   display:flex;
-  align-items: stretch;
   flex-direction:column;
   height:100vh;
-  overflow-y:auto;
 
     
   section{
-    flex: 1 0 100vh;
     display:flex;    
     flex-direction: column;
   }
 
-
-  .starwars{
-    background-color: black;
-    overflow: hidden;
-    
-    perspective:300px;
-
-
+  .carousel{
+    flex:1 0 100vh;
     justify-content: center;
-    color: #feda4a;
-    font-family: 'Pathway Gothic One', sans-serif;
-    font-size: 500%;
-    font-weight: 600;
-    letter-spacing: 6px;
-    line-height: 150%;
-    text-align: justify;
   }
+
+  .mySlides{
+    max-width:100%;
+    max-height:100%;
+  }
+
 
   .crawl{    
       position: relative;    
@@ -52,15 +42,6 @@
 
   }
 
-  
-  .fade {
-    position: absolute;
-    width: 100%;
-    min-height: 60vh;  
-    top : 0;
-    background-image: linear-gradient(0deg, transparent, black 75%);
-    z-index: 100;
-  }
 
 
 
@@ -76,16 +57,13 @@
   .map-text{
     overflow-y:scroll;    
     text-align : center;
-    background:#2b2b2b;
+    background:#235E6F;
 
     .shadow{
-      color: white;
+      color: ivory;
       font-family: 'Black Han Sans', serif;                  
      
-      -webkit-transition: all 0.12s ease-out;
-      -moz-transition:    all 0.12s ease-out;
-      -ms-transition:     all 0.12s ease-out;
-      -o-transition:      all 0.12s ease-out;
+      transition: all 0.12s ease-out;
 
       &:hover{
         position: relative; 
@@ -114,17 +92,17 @@
     p{
       font-size:2em;
 
-      text-shadow: 1px 1px #4902fe, 
-      2px 2px #4902fe, 
-      3px 3px #4902fe;
+      text-shadow: 1px 1px #165B33, 
+      2px 2px #165B33, 
+      3px 3px #165B33;
 
       &:hover{
-        text-shadow: 1px 1px #4902fe, 
-                     2px 2px #4902fe, 
-                     3px 3px #4902fe, 
-                     4px 4px #4902fe, 
-                     5px 5px #4902fe, 
-                     6px 6px #4902fe;
+        text-shadow: 1px 1px #165B33, 
+                     2px 2px #165B33, 
+                     3px 3px #165B33, 
+                     4px 4px #165B33, 
+                     5px 5px #165B33, 
+                     6px 6px #165B33;
       }
     }
     
@@ -171,7 +149,6 @@
       transform: rotateX(25deg) translateZ(-2500px);
     }
   }
-
 }
 
 

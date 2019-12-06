@@ -3,7 +3,10 @@
     background-position: center;
     background-size: cover;
     user-select:none;
-      
+
+    margin-top : 5px;
+    margin-left : 5px;
+    width : calc(100vw - 10px);
   }
   
   .logo{
