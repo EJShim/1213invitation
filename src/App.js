@@ -174,7 +174,7 @@ class App extends Component {
 
         <section className="map-container">          
           <div className="map-text">
-            <p className="shadow"> ◇ 일시 : 17:00, 13th Dec, 2019</p>
+            <p className="shadow"> ◇ 일시 : 19:00, 13th Dec, 2019</p>
             <p className="shadow"> ◇ 장소 : 회기역 소울숲</p>
             <h1 className="shadow"> 드레스코드 : Movie Star </h1>
             <h1 className="shadow"> 베스트 드레서 시상 </h1>
